@@ -3,7 +3,7 @@ import TypeIt from "typeit-react";
 import { motion } from "framer-motion";
 // import '@/app/binbg'
 
-export class About extends React.Component {
+export class About extends React.Component<any, any> {
     constructor({...props}){
         super(props);
         this.state = {
@@ -11,6 +11,7 @@ export class About extends React.Component {
         }
         this.generateBinary = this.generateBinary.bind(this);
         this.updateBinary = this.updateBinary.bind(this);
+        this.render = this.render.bind(this)
     }
 
     componentDidMount(): void {
