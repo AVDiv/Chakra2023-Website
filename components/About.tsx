@@ -7,7 +7,6 @@ export function About() {
     return (
         <section className="w-full relative overflow-hidden bg-[#00000050]">
             <div className="w-full h-full absolute top-0 left-0 bottom-0 right-0 m-auto -z-10 opacity-30 ">
-                {/* <p className="binBg">{this.state.binaryBg}</p> */}
                 <video autoPlay loop muted playsInline className="w-full">
                     <source src="chakra.webm" type="video/webm" />
                 </video>
@@ -16,7 +15,7 @@ export function About() {
                 <div className="w-full flex justify-center">
                     <h1 className="text-3xl text-chakra-red my-10 text-glow-red glitch-text" data-text="$ chAkRa -h"><span>$ <TypeIt options={{ waitUntilVisible: true, cursorChar: '█' }}>chakra -h</TypeIt></span></h1>
                 </div>
-                <motion.div className="text-xl max-w-5xl w-[1024px] text-glow-yellow m-5 mb-10" initial={{ opacity: 0 }} whileInView={{ opacity: [0, 0.7, 0.1, 1] }} transition={{ duration: 1, times: [0, 0.25, 0.26, 1], ease: ["easeIn", 'linear', "easeIn"] }}>
+                <motion.div className="text-xl max-w-5xl text-glow-yellow m-5 mb-10" initial={{ opacity: 0 }} whileInView={{ opacity: [0, 0.7, 0.1, 1] }} transition={{ duration: 1, times: [0, 0.25, 0.26, 1], ease: ["easeIn", 'linear', "easeIn"] }}>
                     <p><TypeIt options={{ waitUntilVisible: true, cursorChar: ' ', speed: 1.5 }}>
                         - a contest which not only hackers can participate.<br/>
                         - a Group should consist of 4 members which is an inclusive of; <br/>
