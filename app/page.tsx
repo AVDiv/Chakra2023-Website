@@ -1,9 +1,11 @@
 "use client";
-import { About } from '@/components/About';
-import { Contact } from '@/components/Contact';
 import { Hero } from '@/components/Hero'
+import { About } from '@/components/About';
 import { Prizes } from '@/components/Prizes';
 import { Sponsors } from '@/components/Sponsors';
+import { Contact } from '@/components/Contact';
+import { Footer } from '@/components/Footer';
+
 
 export default function Home() {
   return (
@@ -13,6 +15,7 @@ export default function Home() {
       <Prizes />
       <Sponsors />
       <Contact />
+      <Footer />
     </main>
   )
 }
