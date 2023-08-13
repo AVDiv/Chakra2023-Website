@@ -12,6 +12,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'chakra-yellow': '#FFAC30',
+        'chakra-red': '#E5212C'
+      },
+      fontFamily: {
+        'major-mono': ['Major Mono Display', 'monospace'],
+        'julius': ['Julius Sans One', 'sans-serif'],
+      },
     },
   },
   plugins: [],
