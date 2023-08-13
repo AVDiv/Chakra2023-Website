@@ -31,12 +31,12 @@ export class Hero extends React.Component<any, any> {
             </div>
             <div className="focus-gradient h-full w-full absolute top-0 left-0">
                 <div className=" h-2/3 w-full mt-6 flex items-center relative overflow-hidden">
-                    <motion.div  initial={{ height: 'auto' }} animate={{ height: '100%'}} transition={{duration: 1, ease: "circOut"}} className="bg-[#FFAC30] w-full flex flex-col justify-center items-center">
+                    <motion.div  initial={{ height: 'auto' }} animate={{ height: '100%'}} transition={{duration: 1, ease: "circOut"}} className="bg-chakra-yellow w-full flex flex-col justify-center items-center">
                         <div className="text-black h-full text-center flex flex-col items-center justify-between">
                             <motion.div initial={{ height: 0, clipPath: 'inset(100% 0 0 0)', margin: 0 }} animate={{ height: 192, clipPath: 'inset(0 0 0 0)', margin: 32 }} className="h-48">
                                 <ChakraLogo color="#000000" className="rotate-logo" />
                             </motion.div>
-                            <h1 className="text-8xl my-3 glitch-text font-julius" data-text="cHAKRA"><span>chAkra</span></h1>
+                            {/* <h1 className="text-8xl my-3 glitch-text font-julius" data-text="cHAKRA"><span>chAkra</span></h1> */}
                             <motion.p initial={{ height: 0, clipPath: 'inset(0 0 100% 0)', paddingBlock: 0 }} animate={{ height: 100, clipPath: 'inset(0 0 0 0)', paddingBlock: '1rem' }} transition={{duration: 0.8, ease: "easeOut"}} className="text-4xl max-w-3xl font-julius"><TypeIt options={{cursorChar: '█', startDelay: 1000}}>The ultimate hackathon</TypeIt></motion.p>
                             <motion.a href="#" initial={{ opacity: 0, height: 0, padding: '0 16px 0 16px', marginBottom: 0, borderWidth: 0 }} animate={{ opacity: 1, height: 72, padding: '16px 16px 16px 16px', marginBottom: 40, borderWidth: 4 }} whileHover={{ textShadow: '0 0 10px #FFAC30' }} transition={{duration: 0.8, ease: "easeIn"}} className=" overflow-hidden text-2xl border-black hover:bg-black hover:text-[#FFAC30] transition-all">&gt; sudo Register</motion.a>
                         </div>

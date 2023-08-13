@@ -8,11 +8,14 @@
   font-family: 'Major Mono Display', monospace;
   font-family: 'Julius Sans One', sans-serif;
 } */
+html{
+  scroll-behavior: smooth;
+}
 div{
   @apply m-0 p-0 text-chakra-yellow;
 }
 body{
-  @apply bg-[#212121] font-major-mono;
+  @apply bg-[#212121] font-julius;
 }
 ::-moz-selection { /* Code for Firefox */
   color: black;
@@ -54,7 +57,7 @@ body{
   text-shadow: 0 0 5px #FFAC30;
 }
 .focus-gradient{
-  background: radial-gradient(circle at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+  background: radial-gradient(circle at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 100%);
 }
 .rotate-logo .logo-rotation{
   transform-origin:center;

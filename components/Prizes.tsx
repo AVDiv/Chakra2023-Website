@@ -7,7 +7,7 @@ import { PrizeCard } from "./cards/PrizeCard";
 
 export function Prizes() {  
     return (
-        <section className="w-full relative overflow-hidden bg-[#00000030]">
+        <section className="w-full relative overflow-hidden bg-[#00000030] font-julius">
             <div className=" w-full h-full flex flex-col justify-center items-center">
                 <div className="w-full flex justify-center">
                     <h1 className="text-3xl text-chakra-yellow my-10 text-glow-yellow glitch-text" data-text="$ PRiZes"><span>$ <TypeIt options={{ waitUntilVisible: true, cursorChar: '█' }}>prizes</TypeIt></span></h1>

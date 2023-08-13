@@ -1,5 +1,7 @@
 "use client";
+import { Navbar } from '@/components/Nav';
 import { Hero } from '@/components/Hero'
+import { Hero2 } from '@/components/Hero2'
 import { About } from '@/components/About';
 import { Prizes } from '@/components/Prizes';
 import { Sponsors } from '@/components/Sponsors';
@@ -10,10 +12,10 @@ import { Footer } from '@/components/Footer';
 export default function Home() {
   return (
     <main className='w-full'>
-      <Hero />
+      <Navbar />
+      {/*<Hero />*/}
+      <Hero2 />
       <About />
-      <Prizes />
-      <Sponsors />
       <Contact />
       <Footer />
     </main>
