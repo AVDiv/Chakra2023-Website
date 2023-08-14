@@ -13,7 +13,7 @@ export function About() {
             </div>
             <div className=" w-full h-full flex flex-col justify-center items-center backdrop-blur-sm backdrop-brightness-100 bg-gradient-radial from-transparent to-black bg-[length:5px_5px] ">
                 <div className="w-full flex justify-center">
-                    <h1 className="text-3xl text-chakra-red my-10 text-glow-red glitch-text" data-text="$ chAkRa -h"><span><TypeIt options={{ waitUntilVisible: true, cursorChar: '█' }}>what is chakra</TypeIt></span></h1>
+                    <h1 className="text-3xl text-chakra-red my-10 text-glow-red glitch-text" data-text="what is chakra"><span><TypeIt options={{ waitUntilVisible: true, cursorChar: '█' }}>what is chakra</TypeIt></span></h1>
                 </div>
                 <motion.div className="text-xl max-w-5xl text-glow-yellow m-5 mb-10 text-center" initial={{ opacity: 0 }} whileInView={{ opacity: [0, 0.7, 0.1, 1] }} transition={{ duration: 1, times: [0, 0.25, 0.26, 1], ease: ["easeIn", 'linear', "easeIn"] }}>
                     <p><TypeIt options={{ waitUntilVisible: true, cursorChar: ' ', speed: 1.5 }}>

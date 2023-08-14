@@ -3,7 +3,6 @@ import TypeIt from "typeit-react";
 import { motion } from "framer-motion";
 import { PrizeCard } from "./cards/PrizeCard";
 
-// import '@/app/binbg'
 
 export function Prizes() {  
     return (

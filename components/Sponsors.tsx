@@ -1,7 +1,6 @@
 import React from "react";
 import TypeIt from "typeit-react";
 import { motion } from "framer-motion";
-// import '@/app/binbg'
 
 export function Sponsors() {  
     return (

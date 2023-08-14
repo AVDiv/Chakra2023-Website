@@ -2,7 +2,6 @@ import React from "react";
 import TypeIt from "typeit-react";
 import { motion } from "framer-motion";
 import { ContactCard } from "./cards/ContactCard";
-// import '@/app/binbg'
 
 export function Contact() {  
     return (

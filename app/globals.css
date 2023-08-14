@@ -1,13 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* *{
-  font-family: 'Major Mono Display', monospace;
-  font-family: 'Julius Sans One', sans-serif;
-} */
 html{
   scroll-behavior: smooth;
 }
@@ -59,13 +54,6 @@ body{
 .focus-gradient{
   background: radial-gradient(circle at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 100%);
 }
-.rotate-logo .logo-rotation{
-  transform-origin:center;
-  animation: spin 60s linear infinite;
-}
-.dot-art path{
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-}
 
 .glitch-text{
   position: relative;
@@ -97,12 +85,6 @@ body{
   color: #FFAC30;
   animation: paths 5s step-end infinite, opacity 5s step-end infinite,
     font 7s step-end infinite, movement 8s step-end infinite;
-}
-
-@keyframes spin {
-  to {
-      transform: rotate(360deg);
-  }
 }
 
 @keyframes paths {

@@ -17,7 +17,6 @@ module.exports = {
         'chakra-red': '#E5212C'
       },
       fontFamily: {
-        'major-mono': ['Major Mono Display', 'monospace'],
         'julius': ['Julius Sans One', 'sans-serif'],
       },
     },
