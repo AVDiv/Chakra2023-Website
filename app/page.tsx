@@ -4,6 +4,7 @@ import { Hero2 } from '@/components/Hero2'
 import { About } from '@/components/About';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
+import { Guidelines } from '@/components/Guidelines';
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Hero2 />
       <About />
+      <Guidelines />
       <Contact />
       <Footer />
     </main>
