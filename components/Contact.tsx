@@ -17,12 +17,12 @@ export function Contact() {
                 </div>
                 <motion.div className="text-xl max-w-6xl w-full xl:w-[1156px] text-glow-yellow m-5 mb-10" initial={{ opacity: 0 }} whileInView={{ opacity: [0, 0.7, 0.1, 1] }} transition={{ duration: 1, times: [0, 0.25, 0.26, 1], ease: ["easeIn", 'linear', "easeIn"] }}>
                     <div className="w-full flex justify-center py-5">
-                        <ContactCard name="srimal fernando" position="- event chair -" image={SrimalImg} linkedin="https://www.linkedin.com/in/srimal-online/"/>
+                        <ContactCard name="srimal fernando" position="- event chair -" image={SrimalImg} email="srimal.cyber@gmail.com" phone="0765341551" linkedin="https://www.linkedin.com/in/srimal-online/"/>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-3 w-full justify-items-center py-5 gap-y-5">
-                        <ContactCard name="kaveen rupasinghe" position="- head of content -" image={KaveenImg} linkedin="https://lk.linkedin.com/in/kaveen-rupasinghe-356123186"/>
-                        <ContactCard name="chamal rashmika " position="- head of program -" image={RashmikaImg} className="object-top" linkedin="https://www.linkedin.com/in/rashmikalkx/"/>
-                        <ContactCard name="seniya wickramarachchi" position="- head of er -" image={SeniyaImg} linkedin="https://www.linkedin.com/in/seniyadewmina"/>
+                        <ContactCard name="kaveen rupasinghe" position="- head of content -" image={KaveenImg} phone="0774711560" email="kaveenrupasinghe@ieee.org" linkedin="https://lk.linkedin.com/in/kaveen-rupasinghe-356123186"/>
+                        <ContactCard name="chamal rashmika " position="- head of program -" image={RashmikaImg} className="object-top" phone="0710726949" email="lkrashmika@gmail.com" linkedin="https://www.linkedin.com/in/rashmikalkx/"/>
+                        <ContactCard name="seniya wickramarachchi" position="- head of er -" image={SeniyaImg} phone="0716843121" email="seniyadewmina@ieee.org" linkedin="https://www.linkedin.com/in/seniyadewmina"/>
                     </div>
                 </motion.div>
             </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import TypeIt from "typeit-react";
-import { FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaPhone } from 'react-icons/fa';
 
 export function ContactCard({ ...props }) {
     return (
@@ -16,7 +16,13 @@ export function ContactCard({ ...props }) {
                         <span className="text-base">{props.position}</span>
                     </TypeIt>
                 </div>
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center gap-x-2">
+                    <a href={"tel:"+props.phone} className="text-xl hover:text-chakra-red text-chakra-yellow transition-all">
+                        <FaPhone className="text-base" />
+                    </a>
+                    <a href={"mailto:"+props.email} className="text-xl hover:text-chakra-red text-chakra-yellow transition-all">
+                        <FaEnvelope className="text-lg" />
+                    </a>
                     <a href={props.linkedin} className="text-xl hover:text-chakra-red text-chakra-yellow transition-all">
                         <FaLinkedin />
                     </a>
