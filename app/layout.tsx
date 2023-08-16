@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'Chakra 2023',
   description: 'The Ultimate Hackathon',
   themeColor: '#FFAC30',
+  applicationName: "Chakra 2023",
   authors: [{name: "IEEE CS NSBM"}],
   viewport: 'width=device-width, initial-scale=1',
   colorScheme: 'dark',
