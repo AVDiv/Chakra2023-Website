@@ -7,7 +7,7 @@ export function ContactCard({ ...props }) {
     return (
         <div className="w-80 h-96 rounded-lg bg-[#212121] shadow-lg hover:bg-transparent hover:shadow-none transition-all hover:border-chakra-red border-chakra-yellow hover:border-2 ">
             <div className="w-full h-3/6">
-                <Image src={props.image} alt="" className={"w-full h-full object-cover ".concat(props.className)} />
+                <Image src={props.image} alt="" className={"w-full h-full rounded-t-lg object-cover ".concat(props.className)} />
             </div>
             <div className="w-full h-3/6 flex flex-col justify-center">
                 <div className="px-4 py-2 text-center">
