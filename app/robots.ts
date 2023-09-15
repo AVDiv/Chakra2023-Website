@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://chakra.ieeensbm.org/sitemap.xml',
+    sitemap: 'https://manthra.ieeensbm.org/sitemap.xml',
   }
 }

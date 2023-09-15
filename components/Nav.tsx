@@ -6,7 +6,7 @@ export function Navbar(){
         <nav className="bg-[#6969690A] fixed top-0 z-50 w-full backdrop-blur-sm backdrop-brightness-100 bg-gradient-radial from-transparent to-[#00000060] bg-[length:5px_5px] ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <div className="h-8">
-                <WordLogo color="#FFAC30" />
+                <WordLogo color="#FFDE17" />
             </div>
             <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                 <span className="sr-only">Open main menu</span>

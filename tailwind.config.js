@@ -13,8 +13,8 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        'chakra-yellow': '#FFAC30',
-        'chakra-red': '#E5212C'
+        'manthra-yellow': '#FFDE17',
+        'manthra-red': '#E5212C'
       },
       fontFamily: {
         'julius': ['Julius Sans One', 'sans-serif'],
