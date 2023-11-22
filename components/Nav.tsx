@@ -45,8 +45,8 @@ export function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/#sponsors" className="block py-2 pl-3 pr-4">
-                Sponsors
+              <a href="/#partners" className="block py-2 pl-3 pr-4">
+                Partners
               </a>
             </li>
             <li>
