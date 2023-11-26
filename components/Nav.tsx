@@ -44,11 +44,11 @@ export function Navbar() {
                 About
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/#partners" className="block py-2 pl-3 pr-4">
                 Partners
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="/#contact" className="block py-2 pl-3 pr-4">
                 Contact
