@@ -43,7 +43,7 @@ export function ContactCard({ ...props }) {
             <FaLinkedin />
           </a>
         </div>
-        {props.subPosition && (
+        {/* {props.subPosition && (
           <div className="px-4">
             <hr className="border-t-2 border-manthra-yellow my-4" />
             <div className="flex flex-row gap-3">
@@ -63,7 +63,7 @@ export function ContactCard({ ...props }) {
               </div>
             </div>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );

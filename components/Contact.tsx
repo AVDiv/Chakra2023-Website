@@ -50,23 +50,19 @@ export function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-3 w-full justify-items-center py-5 gap-y-5">
             <ContactCard
               name="kaveen rupasinghe"
-              position="- head of content -"
+              position="- co-chair of content -"
               image={KaveenImg}
               phone="0774711560"
               email="kaveenrupasinghe@ieee.org"
               linkedin="https://lk.linkedin.com/in/kaveen-rupasinghe-356123186"
-              subPosition={"Co-Chair, Content"}
-              coChairInfo={{ name: "Co-Chair Name", image: "/co-chair.png" }}
             />
             <ContactCard
               name="jayasanka ariyarathna "
-              position="- head of program -"
+              position="- co-chair of program -"
               image={JayasankaImg}
               phone="0704821254"
               email="jayasankaariyaratne@ieee.org"
               linkedin="https://www.linkedin.com/in/jayasanka-ariyaratne"
-              subPosition={"Co-Chair, Program"}
-              coChairInfo={{ name: "Co-Chair Name", image: "/co-chair.png" }}
             />
             {/* <ContactCard
               name="pasandi samarasinghe"
@@ -78,13 +74,11 @@ export function Contact() {
             /> */}
             <ContactCard
               name="Geeth Induwara"
-              position="- head of er -"
+              position="- co-chair of er -"
               image={GeethImg}
               phone="0773623718"
               email="geethinduwara@ieee.org"
               linkedin="https://www.linkedin.com/in/geethinduwara/"
-              subPosition={"Co-Chair, ER"}
-              coChairInfo={{ name: "Co-Chair Name", image: "/co-chair.png" }}
             />
           </div>
         </motion.div>
