@@ -21,7 +21,7 @@ export function Guidelines() {
                 &emsp;- Teams are required to develop solutions for the provided questions.<br />
                 &emsp;- Participants are encouraged to leverage available resources.<br />
                 &emsp;- Any programming language can be employed to create the solution.<br />
-                &emsp;- Participants are expected to remain engaged throughout the entirety of the hackathon's duration.<br />
+                &emsp;- Participants are expected to remain engaged throughout the entirety of the ctf's duration.<br />
                 &emsp;- It is imperative for all participants to accept and respect the final judgments rendered by the panel of judges.<br />
                 </TypeIt>
                 </motion.div>

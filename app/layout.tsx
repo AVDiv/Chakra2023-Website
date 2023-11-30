@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   authors: [{name: "IEEE CS NSBM"}],
   viewport: 'width=device-width, initial-scale=1',
   colorScheme: 'dark',
-  keywords: ['manthra 2023', 'manthra ieee nsbm', 'manthra ieee cs nsbm', 'ieee nsbm', 'ieee cs nsbm', 'hackathon', 'hackathon ieee nsbm', 'ieee cs nsbm hackathon', 'ieee nsbm hackathon', 'hackathon 2023'],
+  keywords: ['manthra 2023', 'manthra ieee nsbm', 'manthra ieee cs nsbm', 'ieee nsbm', 'ieee cs nsbm', 'ctf', 'ctf ieee nsbm', 'ieee cs nsbm ctf', 'ieee nsbm ctf', 'ctf 2023'],
   openGraph:
   {
     title:'Manthra 2023 - IEEE CS NSBM',

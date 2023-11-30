@@ -17,9 +17,9 @@ export function About() {
                 </div>
                 <motion.div className="text-xl max-w-5xl text-glow-yellow m-5 mb-10 text-center" initial={{ opacity: 0 }} whileInView={{ opacity: [0, 0.7, 0.1, 1] }} transition={{ duration: 1, times: [0, 0.25, 0.26, 1], ease: ["easeIn", 'linear', "easeIn"] }}>
                     <p><TypeIt options={{ waitUntilVisible: true, cursorChar: ' ', speed: 1.5 }}>
-                    Introducing “Manthra”, a unique hackathon by the “IEEE Computer Society of NSBM Green University”, seamlessly blending the reality and the virtual worlds.<br/>Competitors will experience a captivating real-life computer game, embracing the rich mythology of Sri Lanka, while inspiring innovation in technology and culture.
+                    Introducing “Manthra”, a unique ctf by the “IEEE Computer Society of NSBM Green University”, seamlessly blending the reality and the virtual worlds.<br/>Competitors will experience a captivating real-life computer game, embracing the rich mythology of Sri Lanka, while inspiring innovation in technology and culture.
                     <br/><br/>
-                    Just like the seven energy points of the human astral body, "Manthra" represents the diverse and dynamic essence of this event. Now, behold "CHAKRA" - a hackathon like no other. This extraordinary event aims to summon the most talented hackers and coders from across the island, uniting these little teams to embark on daunting tasks and unearth elusive solutions.
+                    Just like the seven energy points of the human astral body, "Manthra" represents the diverse and dynamic essence of this event. Now, behold "CHAKRA" - a ctf like no other. This extraordinary event aims to summon the most talented hackers and coders from across the island, uniting these little teams to embark on daunting tasks and unearth elusive solutions.
                     </TypeIt></p>
                 </motion.div>
             </div>
